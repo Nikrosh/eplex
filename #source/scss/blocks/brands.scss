@@ -1,0 +1,25 @@
+.brands {
+    padding: 100px 0;
+}
+
+.brands__top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+        margin: 0;
+    }
+}
+
+.brands__arrow-block {
+    button:first-child {
+        margin-right: 20px;
+    }
+}
+
+.brands__logos {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+}

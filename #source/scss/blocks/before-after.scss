@@ -1,0 +1,57 @@
+.before-after {
+    padding-top: 96px;
+    padding-bottom: 100px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.before-after__discription {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.before-after__content {
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.before-after__before,
+.before-after__after {
+    width: 305px;
+    h3 {
+        margin: 0;
+        margin-bottom: 70px;
+    }
+}
+
+.before-after__list {
+    padding: 0;
+    list-style: none;
+    li {
+        margin-bottom: 16px;
+        
+    }
+}
+
+.before-after__list--before {
+    li {
+        padding-left: 31px;
+        background-repeat: no-repeat;
+        background-position: 0px 5px;
+        background-image: url('../IMG/cross-before-icon.svg');
+    }
+}
+
+.before-after__list--after {
+    li {
+        padding-left: 34px;
+        background-repeat: no-repeat;
+        background-position: 0px -4px;
+        background-image: url('../IMG/check-after-icon.svg');
+    }
+}

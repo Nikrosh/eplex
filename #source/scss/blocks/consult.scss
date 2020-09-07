@@ -1,0 +1,16 @@
+.consult {
+    padding: 46px 60px 60px;
+    background-color: $gray;
+    background-image: url('../IMG/consult-img.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    h3 {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    p {
+        line-height: 32px;
+        width: 510px;
+        margin-bottom: 60px;
+    }
+}

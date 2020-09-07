@@ -1,0 +1,104 @@
+.solutions {
+    padding: 75px 0 60px;
+    background-color: $gray;
+    h2 {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 38px;
+    }
+}
+
+.solutions__toggles {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid $dark-gray;
+    padding-bottom: 23px;
+    a {
+        line-height: 30px;
+        text-decoration: none;
+        color: $black;
+        margin-right: 80px;
+        transition: all 0.3s;
+    }
+    a:hover {
+        color: $red;
+    }
+}
+
+.solutions__toggle--active {
+    position: relative;
+    a {
+        color: $red;
+    }
+    &::before {
+        content: "";
+        width: calc(100% - 80px);
+        height: 3px;
+        background-color: $red;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+}
+
+.solutions__control {
+    padding-left: 43px;
+    background-image: url('../IMG/control-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}
+
+.solutions__sales {
+    padding-left: 45px;
+    background-image: url('../IMG/sale-icon.svg');
+    background-repeat: no-repeat;
+}
+
+.solutions__shipment {
+    padding-left: 45px;
+    background-image: url('../IMG/shipment-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 6px;
+}
+
+.solutions__stock {
+    padding-left: 45px;
+    background-image: url('../IMG/stock-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.solutions__slider {
+    padding: 0;
+    list-style: none;
+}
+
+.solutions__slide {
+    margin-top: 68px;
+    justify-content: space-between;
+}
+
+.solutions__text {
+    position: relative;
+    width: 462px;
+    p {
+        margin: 0;
+        line-height: 32px;
+        margin-bottom: 100px;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 0;
+        left: -90px;
+        width: 23px;
+        height: 321px;
+        background-image: url('../IMG/solutions-arrow.svg');
+    }
+}
+
+.solutions__img {
+    height: 400px;
+}

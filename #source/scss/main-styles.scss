@@ -1,0 +1,183 @@
+body {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: border-box; }
+
+.main-text-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    line-height: 74px;
+}
+
+.main-text-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    line-height: 59px;
+    margin: 0;
+}
+
+.main-text-3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.main-text-4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.main-text-5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: $white;
+    background-color: $red;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    padding: 18px 30px 0;
+    transition: all 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        background-color: $dark-red;
+    }
+    &:active {
+        background-color: $black;
+    }
+}
+
+.button-white {
+    display: inline-block;
+    color: $white;
+    text-decoration: none;
+    padding: 3px 15px 5px;
+    border-radius: 3px;
+    background-color: rgba($color: $white, $alpha: 0.3);
+    transition: all 0.3s;
+    &:hover {
+        background-color: rgba($color: $white, $alpha: 0.5);
+    }
+    &:active {
+        background-color: rgba($color: $white, $alpha: 0.7);
+    }
+}
+
+.button-arrow-left {
+    border: none;
+    background-color: $gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../IMG/arrow-left.svg');
+    background-position: 13px center;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: $gray-hover;
+    }
+    &:active {
+        background-color: $gray;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.button-arrow-right {
+    border: none;
+    background-color: $gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../IMG/arrow-right.svg');
+    background-position: 16px center;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: $gray-hover;
+    }
+    &:active {
+        background-color: $gray;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.link {
+    color: $red;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+        color: $dark-red;
+    }
+    &:active {
+        color: $black;
+    }
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+        background-color: $gray;
+        margin-right: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $dark-gray;
+        }
+        &:active {
+            background-color: $red;
+        }
+    }
+}
+
+.socials__fb {
+    background-image: url(../IMG/fb-icon.svg);
+}
+.socials__insta {
+    background-image: url(../IMG/inst-icon.svg);
+}
+.socials__twi {
+    background-image: url(../IMG/twi-icon.svg);
+}
+
+.block-flex {
+    display: flex;
+}
+
+.block-none {
+    display: none;
+}
