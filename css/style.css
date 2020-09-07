@@ -92,7 +92,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-image: url("../IMG/arrow-left.svg");
+  background-image: url("../img/arrow-left.svg");
   background-position: 13px center;
   cursor: pointer;
   transition: all 0.3s;
@@ -114,7 +114,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-image: url("../IMG/arrow-right.svg");
+  background-image: url("../img/arrow-right.svg");
   background-position: 16px center;
   cursor: pointer;
   transition: all 0.3s;
@@ -166,15 +166,15 @@ body {
 }
 
 .socials__fb {
-  background-image: url(../IMG/fb-icon.svg);
+  background-image: url(../img/fb-icon.svg);
 }
 
 .socials__insta {
-  background-image: url(../IMG/inst-icon.svg);
+  background-image: url(../img/inst-icon.svg);
 }
 
 .socials__twi {
-  background-image: url(../IMG/twi-icon.svg);
+  background-image: url(../img/twi-icon.svg);
 }
 
 .block-flex {
@@ -186,7 +186,7 @@ body {
 }
 
 header {
-  background-image: url("../IMG/header-bg.jpg");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -231,7 +231,7 @@ header::before {
 .header__mail {
   margin-right: 35px;
   padding-left: 30px;
-  background-image: url("../IMG/mail-icon.svg");
+  background-image: url("../img/mail-icon.svg");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -239,7 +239,7 @@ header::before {
 .header__phone {
   margin-right: 20px;
   padding-left: 30px;
-  background-image: url("../IMG/phone-icon.svg");
+  background-image: url("../img/phone-icon.svg");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -267,7 +267,7 @@ header::before {
 
 .header__menu-arrow {
   padding-right: 30px;
-  background-image: url("../IMG/arrow-icon.svg");
+  background-image: url("../img/arrow-icon.svg");
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -330,7 +330,7 @@ header::before {
   height: 34px;
   margin-right: 50px;
   padding-left: 34px;
-  background-image: url("../IMG/check-list-icon.svg");
+  background-image: url("../img/check-list-icon.svg");
   background-repeat: no-repeat;
   z-index: 5;
 }
@@ -414,14 +414,14 @@ header::before {
   padding-left: 31px;
   background-repeat: no-repeat;
   background-position: 0px 5px;
-  background-image: url("../IMG/cross-before-icon.svg");
+  background-image: url("../img/cross-before-icon.svg");
 }
 
 .before-after__list--after li {
   padding-left: 34px;
   background-repeat: no-repeat;
   background-position: 0px -4px;
-  background-image: url("../IMG/check-after-icon.svg");
+  background-image: url("../img/check-after-icon.svg");
 }
 
 .solutions {
@@ -470,27 +470,27 @@ header::before {
 
 .solutions__control {
   padding-left: 43px;
-  background-image: url("../IMG/control-icon.svg");
+  background-image: url("../img/control-icon.svg");
   background-repeat: no-repeat;
   background-position: 0px 3px;
 }
 
 .solutions__sales {
   padding-left: 45px;
-  background-image: url("../IMG/sale-icon.svg");
+  background-image: url("../img/sale-icon.svg");
   background-repeat: no-repeat;
 }
 
 .solutions__shipment {
   padding-left: 45px;
-  background-image: url("../IMG/shipment-icon.svg");
+  background-image: url("../img/shipment-icon.svg");
   background-repeat: no-repeat;
   background-position: 0px 6px;
 }
 
 .solutions__stock {
   padding-left: 45px;
-  background-image: url("../IMG/stock-icon.svg");
+  background-image: url("../img/stock-icon.svg");
   background-repeat: no-repeat;
   background-position: 0px 0px;
 }
@@ -522,7 +522,7 @@ header::before {
   left: -90px;
   width: 23px;
   height: 321px;
-  background-image: url("../IMG/solutions-arrow.svg");
+  background-image: url("../img/solutions-arrow.svg");
 }
 
 .solutions__img {
@@ -556,7 +556,7 @@ header::before {
 .consult {
   padding: 46px 60px 60px;
   background-color: #F4F4F4;
-  background-image: url("../IMG/consult-img.jpg");
+  background-image: url("../img/consult-img.jpg");
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -646,7 +646,7 @@ header::before {
 .demonstration {
   padding: 46px 60px 60px;
   background-color: #F4F4F4;
-  background-image: url("../IMG/consult-img.jpg");
+  background-image: url("../img/consult-img.jpg");
   background-repeat: no-repeat;
   background-position: right center;
   margin-bottom: 100px;
@@ -682,7 +682,7 @@ header::before {
   width: 160px;
   margin-right: 35px;
   padding-left: 30px;
-  background-image: url("../IMG/mail-icon.svg");
+  background-image: url("../img/mail-icon.svg");
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -691,7 +691,7 @@ header::before {
   width: 180px;
   margin-right: 20px;
   padding-left: 30px;
-  background-image: url("../IMG/phone-icon.svg");
+  background-image: url("../img/phone-icon.svg");
   background-repeat: no-repeat;
   background-position: left center;
 }
